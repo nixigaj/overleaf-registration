@@ -11,4 +11,4 @@ services:
       - OL_ADMIN_EMAIL=
       - OL_ADMIN_PASSWORD=
     ports:
-      - "38672:5000"
+      - "38672:8000"
