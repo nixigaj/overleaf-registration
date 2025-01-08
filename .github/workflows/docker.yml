@@ -30,6 +30,6 @@ jobs:
           context: .
           file: ./Dockerfile
           tags: |
-            ghcr.io/studentiunimi/overleaf-registration:${{ env.LATEST_COMMIT_SHA }}
-            ghcr.io/studentiunimi/overleaf-registration:latest
+            ghcr.io/nixigaj/overleaf-registration:${{ env.LATEST_COMMIT_SHA }}
+            ghcr.io/nixigaj/overleaf-registration:latest
           push: true
